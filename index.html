@@ -11,7 +11,7 @@
     />
   </head>
   <body>
-    <div class="cursor-move">DRAG</div>
+    <div class="cursor-move d-flex">DRAG</div>
     <div id="main">
       <!-- --part-1-- -->
       <div class="part-1 d-flex">
@@ -250,6 +250,7 @@
 
       <!-- ---------part-3------- -->
       <div class="part-3">
+        <!-- For using slide you can use https://splidejs.com/ (Auto Scroll*) -->
         <div class="img-part-3"></div>
         <div class="img-part-3"></div>
         <div class="img-part-3"></div>
@@ -258,10 +259,23 @@
         <div class="img-part-3"></div>
         <div class="img-part-3"></div>
         <div class="img-part-3"></div>
-     
+      </div>
+      <!-- ---------- part-4--- -->
+      <div class="part-4 d-flex-c">
+        <h1 class="mainHeading2">Our Offer</h1>
+        <div class="container-4 d-flex">
+          <div class="package d-flex">
+            <i class="ri-check-fill"></i>
+          </div>
+          <div class="package">
+            <h3 id="most-popular">Most Popular</h3>
+          </div>
+          <div class="package"></div>
+        </div>
       </div>
     </div>
 
+    <script src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script> 
     <script src="script.js"></script>
   </body>
 </html>
